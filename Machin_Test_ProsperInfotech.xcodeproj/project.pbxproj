@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		88CDD85C2B8470C700B5DCFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDD85B2B8470C700B5DCFB /* AppDelegate.swift */; };
 		88CDD85E2B8470C700B5DCFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDD85D2B8470C700B5DCFB /* SceneDelegate.swift */; };
-		88CDD8602B8470C700B5DCFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDD85F2B8470C700B5DCFB /* ViewController.swift */; };
 		88CDD8632B8470C700B5DCFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CDD8612B8470C700B5DCFB /* Main.storyboard */; };
 		88CDD8662B8470C700B5DCFB /* Machin_Test_ProsperInfotech.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88CDD8642B8470C700B5DCFB /* Machin_Test_ProsperInfotech.xcdatamodeld */; };
 		88CDD8682B8470C800B5DCFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CDD8672B8470C800B5DCFB /* Assets.xcassets */; };
@@ -17,6 +16,11 @@
 		88CDD8762B8470C800B5DCFB /* Machin_Test_ProsperInfotechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDD8752B8470C800B5DCFB /* Machin_Test_ProsperInfotechTests.swift */; };
 		88CDD8802B8470C900B5DCFB /* Machin_Test_ProsperInfotechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDD87F2B8470C900B5DCFB /* Machin_Test_ProsperInfotechUITests.swift */; };
 		88CDD8822B8470C900B5DCFB /* Machin_Test_ProsperInfotechUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDD8812B8470C900B5DCFB /* Machin_Test_ProsperInfotechUITestsLaunchTests.swift */; };
+		88CDD88F2B84721200B5DCFB /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDD88E2B84721100B5DCFB /* TakePhotoViewController.swift */; };
+		88CDD8932B84739F00B5DCFB /* EditPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDD8922B84739F00B5DCFB /* EditPhotoViewController.swift */; };
+		88CDD8972B84781E00B5DCFB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDD8962B84781E00B5DCFB /* Extension.swift */; };
+		88CDD89A2B8478FB00B5DCFB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDD8992B8478FB00B5DCFB /* Constant.swift */; };
+		88CDD89C2B84795D00B5DCFB /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDD89B2B84795D00B5DCFB /* ImageFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,6 @@
 		88CDD8582B8470C700B5DCFB /* Machin_Test_ProsperInfotech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Machin_Test_ProsperInfotech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CDD85B2B8470C700B5DCFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88CDD85D2B8470C700B5DCFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		88CDD85F2B8470C700B5DCFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88CDD8622B8470C700B5DCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88CDD8652B8470C700B5DCFB /* Machin_Test_ProsperInfotech.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Machin_Test_ProsperInfotech.xcdatamodel; sourceTree = "<group>"; };
 		88CDD8672B8470C800B5DCFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		88CDD87B2B8470C900B5DCFB /* Machin_Test_ProsperInfotechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Machin_Test_ProsperInfotechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CDD87F2B8470C900B5DCFB /* Machin_Test_ProsperInfotechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machin_Test_ProsperInfotechUITests.swift; sourceTree = "<group>"; };
 		88CDD8812B8470C900B5DCFB /* Machin_Test_ProsperInfotechUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machin_Test_ProsperInfotechUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88CDD88E2B84721100B5DCFB /* TakePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePhotoViewController.swift; sourceTree = "<group>"; };
+		88CDD8922B84739F00B5DCFB /* EditPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhotoViewController.swift; sourceTree = "<group>"; };
+		88CDD8962B84781E00B5DCFB /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		88CDD8992B8478FB00B5DCFB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		88CDD89B2B84795D00B5DCFB /* ImageFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +109,12 @@
 		88CDD85A2B8470C700B5DCFB /* Machin_Test_ProsperInfotech */ = {
 			isa = PBXGroup;
 			children = (
+				88CDD8902B84736B00B5DCFB /* Utils */,
 				88CDD85B2B8470C700B5DCFB /* AppDelegate.swift */,
 				88CDD85D2B8470C700B5DCFB /* SceneDelegate.swift */,
-				88CDD85F2B8470C700B5DCFB /* ViewController.swift */,
-				88CDD8612B8470C700B5DCFB /* Main.storyboard */,
 				88CDD8672B8470C800B5DCFB /* Assets.xcassets */,
-				88CDD8692B8470C800B5DCFB /* LaunchScreen.storyboard */,
+				88CDD8942B8477D400B5DCFB /* View */,
+				88CDD8912B84738400B5DCFB /* Controller */,
 				88CDD86C2B8470C800B5DCFB /* Info.plist */,
 				88CDD8642B8470C700B5DCFB /* Machin_Test_ProsperInfotech.xcdatamodeld */,
 			);
@@ -128,6 +136,50 @@
 				88CDD8812B8470C900B5DCFB /* Machin_Test_ProsperInfotechUITestsLaunchTests.swift */,
 			);
 			path = Machin_Test_ProsperInfotechUITests;
+			sourceTree = "<group>";
+		};
+		88CDD8902B84736B00B5DCFB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				88CDD8982B8478E900B5DCFB /* Constant */,
+				88CDD8952B84780B00B5DCFB /* Extension */,
+				88CDD89B2B84795D00B5DCFB /* ImageFilter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		88CDD8912B84738400B5DCFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88CDD88E2B84721100B5DCFB /* TakePhotoViewController.swift */,
+				88CDD8922B84739F00B5DCFB /* EditPhotoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88CDD8942B8477D400B5DCFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88CDD8692B8470C800B5DCFB /* LaunchScreen.storyboard */,
+				88CDD8612B8470C700B5DCFB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88CDD8952B84780B00B5DCFB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				88CDD8962B84781E00B5DCFB /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		88CDD8982B8478E900B5DCFB /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				88CDD8992B8478FB00B5DCFB /* Constant.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88CDD8602B8470C700B5DCFB /* ViewController.swift in Sources */,
+				88CDD89C2B84795D00B5DCFB /* ImageFilter.swift in Sources */,
+				88CDD8932B84739F00B5DCFB /* EditPhotoViewController.swift in Sources */,
+				88CDD8972B84781E00B5DCFB /* Extension.swift in Sources */,
+				88CDD89A2B8478FB00B5DCFB /* Constant.swift in Sources */,
 				88CDD8662B8470C700B5DCFB /* Machin_Test_ProsperInfotech.xcdatamodeld in Sources */,
 				88CDD85C2B8470C700B5DCFB /* AppDelegate.swift in Sources */,
 				88CDD85E2B8470C700B5DCFB /* SceneDelegate.swift in Sources */,
+				88CDD88F2B84721200B5DCFB /* TakePhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,10 +495,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8DLV5B7896;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Machin_Test_ProsperInfotech/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) wants to use the camera to capture image and add filter on it.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -455,6 +515,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.patil.ashish.Machin-Test-ProsperInfotech";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = PeopleHR_DEV;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,10 +528,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8DLV5B7896;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Machin_Test_ProsperInfotech/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) wants to use the camera to capture image and add filter on it.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -482,6 +548,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.patil.ashish.Machin-Test-ProsperInfotech";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = PeopleHR_DEV;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
